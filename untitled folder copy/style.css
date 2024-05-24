@@ -1,0 +1,351 @@
+footer {
+    background-color: #262A56;
+    padding-left: 4vw;
+    margin-top: 0% !important;
+    padding-top: 0%;
+}
+
+.featuers-logo{
+    width: 9vw;
+    height: 15vh;
+}
+.img-footer{
+    width: 8vw;
+    height:14vh ;
+}
+.statistcs-logos{
+    width: 11vw;
+    height:23vh ;
+  
+}
+.py-5 {
+    margin-top: 0% !important;
+    padding-top: 7vh !important;
+}
+
+footer .line {
+    background-color: white;
+    margin-top: 4vh;
+    font-size:x-small;
+}
+.text-body-secondary{
+    color: white !important;
+    font-weight: 200 !important;
+    font-size: smaller !important;
+}
+
+.answers-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.answers-sec .btn-primary{
+    width: 60vw !important;
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 0 !important;
+}
+
+
+.section-four .btn-primary{
+    width: 15vw;
+    height: 8vh;
+    background-color: #262A56;
+    border: none;
+    margin-bottom: 5vh;
+}
+.gen-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.test-dropdowns{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   margin-bottom: 7vh;
+}
+.dropdowns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-toggle{
+    width: 10vw;
+}
+.drop-label{
+    color: #ffffffda;
+    font-size:medium;
+}
+.btn-group .btn-info{
+        background-color: white;
+        border-color: while;
+        color: #00000086;
+        border: none;
+        text-align: left;
+        font-size: small;
+}
+
+#test-gen-hero{
+    color: #000000c2 !important;
+    font-size:large !important;
+    width: 40vw;
+    text-align: center;
+    padding-left: 13vw;
+}
+.section-four{
+    background-color: #595260;
+    margin-top: 7vh;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5vh;
+}
+
+.section-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+.sec3-info1{
+    width: 60%;
+    color: #000000c2;
+    padding-left: 5vw;
+    padding-right: 15vw;
+}
+.sec3-info1 h1 {
+    font-weight:600;
+}
+.sec3-info1 p {
+    font-size:large ;
+}
+.sec3-pic{
+  padding-bottom: 3vh;
+  padding-right: 2vw; 
+}
+.section-three .btn-outline-secondary {
+    background-color: transparent;
+    font-size: small;
+    width: 10vw;
+    height: 5vh;
+}
+
+.centered-text-container {
+    height: 10vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-text-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.744);
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.text {
+    color: #000000e7;
+    font-size:xx-large;
+    font-weight: 500;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+.text-body-emphasis {
+    color:#7b7b7b !important;
+    font-weight:500;
+}
+#second-section{
+    padding-left: 20vw;
+}
+.full-screen-bg {
+    background-image: url('./images/laptop-pic.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main #first-div {
+    padding-left: 5%;
+    background-color:#000000;
+}
+
+.lead{
+    color: #ffc107;
+    font-weight:400;
+}
+.main{
+    background-color:#D9D9D9; 
+    margin-top: 10vh; 
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#000000 ;
+    color: rgba(255, 255, 255, 0.886);
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-start
+  }
+  nav a:hover{
+    color: #ffc107;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.907);
+  }
+  
+  .logo {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffc107;
+    padding-left: 1vw;
+  }
+
+  #nav-info {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#D9D9D9 ;
+    position: relative;
+    margin: 20px;
+}
+#nav-info::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    background-color: #D9D9D9;
+    top: 17px;
+    left: -5px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 87px 78px -39px rgba(0,0,0,0.4);
+    width: 60vw;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .question {
+    color: rgb(49, 49, 49);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 800;
+  }
+  
+  .steps {
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  
+  .radio-input  label {
+    display: flex;
+    background-color: #fff;
+    padding: 14px;
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(187, 187, 187, 0.164);
+    color: #000;
+    transition: .3s ease;
+  }
+  
+  .radio-input  label:hover {
+    background-color: rgba(24, 24, 24, 0.13);
+    border: 1px solid #bbb;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    display: none;
+    transition: display .4s ease;
+  }
+  
+  .result.success {
+    color: green;
+  }
+  
+  .result.error {
+    color: red;
+  }
+  
+  .radio-input input:checked + label {
+    border-color: red;
+    color: red;
+  }
+  
+  .radio-input input[value="value-2"]:checked + label {
+    border-color: rgb(22, 245, 22);
+    color: rgb(16, 184, 16);
+  }
+  
+  .radio-input:has(input[value="value-2"]:checked) .result.success {
+    display: flex;
+  }
+  
+  .radio-input:has(input:not([value="value-2"]):checked ) .result.error {
+    display: flex;
+  }
+
+
